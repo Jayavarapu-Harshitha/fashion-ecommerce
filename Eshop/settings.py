@@ -25,7 +25,7 @@ SECRET_KEY =config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG=False
 
-ALLOWED_HOSTS = ['fffecommerce.herokuapp.com','127.0.1']
+ALLOWED_HOSTS = ['fashion-ecommerceklu.herokuapp.com','127.0.1']
 
 
 # Application definition
