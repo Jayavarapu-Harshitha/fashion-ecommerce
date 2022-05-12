@@ -12,7 +12,11 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 
 import os
 
+<<<<<<< HEAD
+
+=======
 from decouple import config
+>>>>>>> b4d8c71270252c2b26c13b67ecd7cff9dbb21640
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -21,11 +25,15 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY =config('SECRET_KEY')
+SECRET_KEY ='^_g%33qd(g8bjc+*40&uh(ptgkb$&-*+0!i3$lu7xj1u166cbb'
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG=False
+DEBUG=True
 
+<<<<<<< HEAD
+ALLOWED_HOSTS = []
+=======
 ALLOWED_HOSTS = ['fashion-ecommerceklu.herokuapp.com','127.0.1']
+>>>>>>> b4d8c71270252c2b26c13b67ecd7cff9dbb21640
 
 
 # Application definition
@@ -49,7 +57,11 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+<<<<<<< HEAD
+
+=======
     'whitenoise.middleware.WhiteNoiseMiddleware'
+>>>>>>> b4d8c71270252c2b26c13b67ecd7cff9dbb21640
 ]
 
 ROOT_URLCONF = 'Eshop.urls'
@@ -78,8 +90,12 @@ WSGI_APPLICATION = 'Eshop.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'mydb',
+        'USER': 'postgres',
+        'PASSWORD': 'Harshitha@123',
+        'HOST': 'ecommerce.postgres.database.azure.com',
+        'PORT': '5432',
     }
 }
 
@@ -120,6 +136,22 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
+<<<<<<< HEAD
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
+STATIC_URL = '/static/'
+STATICFILES_DIRS = (
+   ('store', os.path.join(BASE_DIR, 'store', 'static')),
+)
+STATICFILES_FINDERS = (
+  'django.contrib.staticfiles.finders.FileSystemFinder',
+  'django.contrib.staticfiles.finders.AppDirectoriesFinder',
+)
+
+
+MEDIA_URL = "/image/download/"
+MEDIA_ROOT = BASE_DIR
+=======
 
 STATIC_ROOT  =   os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
@@ -131,3 +163,4 @@ STATICFILES_DIRS = [
 ]
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+>>>>>>> b4d8c71270252c2b26c13b67ecd7cff9dbb21640
