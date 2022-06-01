@@ -5,7 +5,7 @@ deployment link:
 http://kluecommerce.azurewebsites.net/store
 
 demo url:
-https://drive.google.com/file/d/1ErD5AbTEubNfiDEtM8QGqA-Rkp5mMOrI/view?usp=sharing
+https://youtu.be/_1ogVeUEa2U
 
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
