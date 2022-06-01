@@ -1,7 +1,11 @@
 # fashion-ecommerce
 [Website Layout.pdf](https://github.com/Jayavarapu-Harshitha/fashion-ecommerce/files/8812414/Website.Layout.pdf)
 
+deployment link:
+http://kluecommerce.azurewebsites.net/store
 
+demo url:
+https://drive.google.com/file/d/1ErD5AbTEubNfiDEtM8QGqA-Rkp5mMOrI/view?usp=sharing
 
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
