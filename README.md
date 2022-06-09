@@ -11,6 +11,10 @@ Services Used:
 1. Azure app service
 2. Azure Database for PostgreSQL
 
+Project Description:
+
+A mini ecommerce website where people can see various styles of dresses for all kind of ages . They can add their items into the cart and checkout for the payment. The orders section contains each an every order and the product information with the checkout option where customers can pay through Qr code scanner.
+
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 # More info on Python, GitHub Actions, and Azure App Service: https://aka.ms/python-webapps-actions
