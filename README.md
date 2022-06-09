@@ -2,7 +2,7 @@
 [Website Layout.pdf](https://github.com/Jayavarapu-Harshitha/fashion-ecommerce/files/8812414/Website.Layout.pdf)
 
 deployment link:
-http://kluecommerce.azurewebsites.net/store
+https://kluecommerce.azurewebsites.net/store
 
 demo url:
 https://youtu.be/_1ogVeUEa2U
