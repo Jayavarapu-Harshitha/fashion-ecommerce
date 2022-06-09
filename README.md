@@ -5,7 +5,7 @@ deployment link:
 https://kluecommerce.azurewebsites.net/store
 
 demo url:
-https://youtu.be/_1ogVeUEa2U
+https://youtu.be/_8hyQirA4UQ
 
 Services Used:
 1. Azure app service
